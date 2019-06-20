@@ -1,7 +1,7 @@
 """
     Para llamar a paquetes de la misma altura
 """
-import sys
+import sys #permite acceder a caracteristicas del sistema operativo
 sys.path.append('../')
 from paquete2.variables import limite
 from paquete3.metodos import generar_potencia

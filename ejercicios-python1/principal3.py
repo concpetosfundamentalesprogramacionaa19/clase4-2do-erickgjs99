@@ -5,6 +5,7 @@
 
 lista = ["Loja", "Cuenca"]
 lista2 = ["Loja", "Azuay"]
+lista.append("Quito")
 
 print("Imprimir lista ")
 for l in lista:

@@ -14,7 +14,6 @@ contador = 0
 
 print("Ingreso de datos de empleado\n")
 while(contador < numero):
-
     try:
         nombre = input("Ingreso su nombre :\n")
         nota1 = input("Ingreso de nota 1 :\n")
@@ -22,7 +21,7 @@ while(contador < numero):
         nota1 = int(nota1)
         nota2 = int(nota2)
         if (nota1 < 0) or (nota2 < 0):
-            raise NumeroNegativosError("No se puede ingresar valor menore a cero")
+            raise NumeroNegativosError("No se puede ingresar valor menores a cero")
         
         if len(nombre)==1:
             raise TamanioDatosPersonalesError("El tamaño de la cadena %s, debe" \
